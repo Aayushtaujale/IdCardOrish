@@ -1,0 +1,52 @@
+body{
+	margin:0;
+	padding:0;
+}
+.d-flex{
+	display:flex;
+}
+.col{
+	flex-direction: column;
+}
+.row{
+	flex-direction: row;
+}
+.mx-1{
+	margin: 0 0.5rem;
+}
+.my-1{
+	margin: 0.5rem 0;
+}
+.px-1{
+	padding: 0 0.5rem;
+}
+.py-1{
+	padding: 0.5rem 0;
+}
+.center{
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.align-center{
+	align-items: center;
+}
+.justify-center{
+	justify-content: center;
+}
+.card-background{
+	background: red
+}
+.card-color{
+	color: white;
+}
+.green{
+	background-color: green;
+}
+.absolute{
+position: absolute;
+}
+.card{
+	width: 200px;
+	height: 300px
+}
